@@ -1,0 +1,105 @@
+/* Вся страница */
+body{
+    /* Шрифт текста */
+    font-family: Calibri;
+
+    /* Цвет фона */
+    background-color: #F0F0F0;
+
+    /* Размер шрифта */
+    font-size: 18px;
+}
+/* Шапка */
+header{
+    /* Отступы */
+    padding: 20px;
+
+    /* Цвет фона голубой*/
+    background-color: #ADD8E6;
+
+    /* Размер шрифта */
+    font-size: 25px;
+
+    /* Граница */
+    border: 1px solid grey;
+}
+/* Меню */
+.menu{
+    /* Сделать меню в один ряд с местом вокруг */
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+}
+
+/* Главный контент */
+main{
+    /* Отступы */
+    padding: 15px;
+}
+
+/* Заголовки */
+h1, h2, h3{
+    /* Шрифт */
+    font-family: sans-serif;
+
+    /* Цвет текста */
+    color: #20206a;
+}
+
+/* Текст */
+p{
+    /* цвет */
+    color: #212147;
+
+    /* Размер */
+    font-size: 19px;
+    
+}
+
+/* Цитата */
+blockquote{
+    /* Шрифт */
+    font-family: monospace;
+
+    /* фон */
+    background-color: #E6E6FA;
+}
+
+/* Картинки */
+img{
+    /* Граница */
+    border: 4px solid #6faec3;
+}
+
+/* Таблица */
+table{
+    /* Фон */
+    background-color: #e9f8f6;
+}
+
+/* Заголовки таблицы */
+th{
+    /* Фон */
+    background-color: #ADD8E6;
+}
+
+
+
+/* Футер */
+footer{
+    /* Отступы */
+    padding: 20px;
+
+    /* Цвет фона голубой*/
+    background-color: #ADD8E6;
+
+    /* Размер шрифта */
+    font-size: 25px;
+
+    /* Граница */
+    border: 1px solid grey;
+
+    /* Текст по центру */
+    text-align: center;
+}
